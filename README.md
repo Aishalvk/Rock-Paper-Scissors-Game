@@ -17,7 +17,7 @@ This is a simple GUI-based Rock, Paper, Scissors game built using Python and the
 from tkinter import *
 import random
 
-#Function for the game logic
+# Function for the game logic
 def play_game(user_choice):
     global user_wins, computer_wins, draws
 
@@ -41,7 +41,7 @@ def play_game(user_choice):
     computer_score_label.config(text=f"Computer Wins: {computer_wins}")
     draw_score_label.config(text=f"Draws: {draws}")
 
-#Function to show results and declare final winner
+# Function to show results and declare final winner
 def show_results():
     if user_wins > computer_wins:
         result_label.config(text="Congratulations!! You are the Winner!", fg="green")
@@ -102,17 +102,17 @@ def play_again():
     results_button.pack(side=LEFT, padx=10)
     reset_button.pack(side=LEFT, padx=10)
 
-#Initialize scores
+# Initialize scores
 user_wins = 0
 computer_wins = 0
 draws = 0
 
-#main Tkinter window
+# main Tkinter window
 root = Tk()
 root.title("Rock, Paper, Scissors")
 root.geometry("900x600")
 
-#Title
+# Title
 Label(root, text="Rock, Paper & Scissors Game", font=("Arial", 20)).pack(pady=20)
 
 # Buttons for user choices
