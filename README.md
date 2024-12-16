@@ -17,7 +17,7 @@ This is a simple GUI-based Rock, Paper, Scissors game built using Python and the
 from tkinter import *
 import random
 
-# Function for the game logic
+''' Function for the game logic
 def play_game(user_choice):
     global user_wins, computer_wins, draws
 
