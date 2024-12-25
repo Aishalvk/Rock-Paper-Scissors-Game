@@ -11,3 +11,6 @@ This is a simple GUI-based Rock, Paper, Scissors game built using Python and the
 ## Requirements
 - Python 3.x
 - Tkinter (comes pre-installed with Python)
+
+## Full Code
+- available at project.py file
